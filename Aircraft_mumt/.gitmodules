@@ -1,0 +1,12 @@
+[submodule "external_methods/inbox/gcbfplus/SOURCE"]
+	path = external_methods/inbox/gcbfplus/SOURCE
+	url = https://github.com/MIT-REALM/gcbfplus.git
+[submodule "external_methods/inbox/macpo/SOURCE"]
+	path = external_methods/inbox/macpo/SOURCE
+	url = https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation.git
+[submodule "external_methods/inbox/mappo/SOURCE"]
+	path = external_methods/inbox/mappo/SOURCE
+	url = https://github.com/marlbenchmark/on-policy.git
+[submodule "external_methods/inbox/mat/SOURCE"]
+	path = external_methods/inbox/mat/SOURCE
+	url = https://github.com/PKU-MARL/Multi-Agent-Transformer.git

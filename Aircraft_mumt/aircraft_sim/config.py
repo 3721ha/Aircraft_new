@@ -1,0 +1,52 @@
+from dataclasses import dataclass
+
+
+@dataclass
+class SimConfig:
+    dt: float = 1.0
+    horizon: int = 120
+    min_speed: float = 120.0
+    max_speed: float = 320.0
+    min_altitude: float = 500.0
+    max_altitude: float = 12000.0
+    max_abs_roll_deg: float = 85.0
+    max_abs_pitch_deg: float = 60.0
+    max_abs_aoa_deg: float = 25.0
+    min_load_factor: float = -3.0
+    max_load_factor: float = 9.0
+    min_separation: float = 800.0
+    belief_ttc_threshold: float = 2.0
+    safe_trend_window: int = 4
+    min_energy: float = 0.18
+    low_resource: float = 0.20
+    min_coverage: int = 1
+    reserve_capacity: float = 0.25
+    id_confidence_threshold: float = 0.70
+    c2_timeout: int = 4
+    info_freshness_timeout: int = 3
+    replan_intervention_window: int = 6
+    replan_intervention_max: int = 3
+    task_deadline: int = 80
+    task_progress_rate: float = 0.012
+    support_risk_threshold: float = 0.70
+    support_response_deadline: int = 8
+    warning_deadline: int = 3
+    assessment_deadline: int = 4
+    risk_budget_min: float = 0.25
+    mode_dwell_steps: int = 2
+    source_disagreement_threshold: float = 0.35
+    recovery_horizon: int = 5
+    hysteresis_margin: float = 120.0
+    safety_dwell_steps: int = 3
+    belief_disagreement_threshold: float = 0.4
+    support_deadline: int = 8
+    capability_loss_threshold: float = 0.5
+    communication_load_threshold: float = 0.9
+    overallocated_capacity_tolerance: float = 1.0
+    load_balance_tolerance: float = 0.5
+    resource_drain: float = 0.004
+    noise_position: float = 80.0
+    noise_speed: float = 4.0
+    communication_drop: float = 0.08
+    sensor_drop: float = 0.05
+    seed: int = 7

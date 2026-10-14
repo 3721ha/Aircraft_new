@@ -1,0 +1,16 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local paper-generation media and reversible cleanup archive
+_media_extract/
+old/
+
+# Editor and Office temporary files
+~$*
+*.bak
+
+# Local virtual environments
+.venv*/
+venv/
